@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Stopwatch and Task Manager</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+    <div class='container'>
+        <h1>Stopwatch</h1>
+        <div id='stopwatch'>00:00:00</div>
+        <div class='buttons'>
+            <button id='startStop'>Start</button>
+            <button id='reset'>Reset</button>
+        </div>
+        <h2>Tasks</h2>
+        <div class='task-input'>
+            <input type='text' id='taskInput' placeholder='Add a new task'>
+            <button id='addTask'>Add</button>
+        </div>
+        <ul id='taskList'></ul>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
